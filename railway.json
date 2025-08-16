@@ -1,0 +1,8 @@
+{
+  "build": {
+    "buildCommand": ""
+  },
+  "deploy": {
+    "startCommand": "npm install --cache /tmp && npm run build && npm start"
+  }
+}
